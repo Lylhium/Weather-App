@@ -11,9 +11,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/weather" element={<PanelClima />} />
-          <Route path="/about" element={<h1>About Us </h1>} />
-          <Route path="*" element={<h1>Page Not Found</h1>} />
+          <Route path="/" element={<PanelClima />} />
         </Routes>
       </BrowserRouter>
     </div>
